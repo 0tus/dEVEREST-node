@@ -1,4 +1,5 @@
-# Dam Webapp Node API
+dEVERSET Node
+=============
 
 This is a simple node restful API for webapp development
 
@@ -8,11 +9,13 @@ This way it is possible to restart the server without loosing the data.
 
 Later REDIS and/or MongoDB connectors should be added.
 
-## Installation
+Installation
+------------
 
     npm install
 
-## Configuration
+Configuration
+-------------
 
 In the `config.js`, you can:
 
@@ -24,11 +27,13 @@ In the `config.js`, you can:
   `/api/photos` but photos ressources will be stored under the `/photos`
   namespace in the JSON.
 
-## Launch the server
+Launch the server
+-----------------
 
     node app.js
 
-## API principle
+API principle
+-------------
 
 The API makes the assumption that you can only perform six different operations
 on a ressource (actually a collection of individual ressources).
